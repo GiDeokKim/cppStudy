@@ -36,5 +36,5 @@ int main()
 	
 	cout << "Your input is " << z << endl;
 
-	return 0; //test
+	return 0;
 }
