@@ -43,5 +43,5 @@ int main()
 	//main도 함수인데 addTwoNumbers 함수를 호출하고 있다. 함수가 함수를 호출할 수 있다.
 	int sum = addTwoNumbers(1, 2);
 
-	return 0;//testtessr123
+	return 0;
 }
