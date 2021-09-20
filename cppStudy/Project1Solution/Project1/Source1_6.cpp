@@ -28,5 +28,5 @@ int main()
 	int num_apples; // 띄어쓰기 대신 under bar를 쓰는편
 	int n_oranges; 
 	int nApples; 
-	int _apples;	// low 레벨의 코드를 작성하시는 분들
+	int _apples;	// low level의 코드를 작성하시는 분들
 }
