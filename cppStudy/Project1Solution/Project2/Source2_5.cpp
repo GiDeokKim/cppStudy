@@ -58,6 +58,8 @@ int main()
 	cout << posinf << endl;
 	cout << neginf << endl;
 	cout << nan << endl; // -nan(ind) indeterminate
+	cout << posinf << " " << std::isinf(posinf) << endl;
+	cout << neginf << " " << std::isinf(neginf) << endl;
 	cout << nan << " " << std::isnan(nan) << endl;
 	cout << 1.0 << " " << std::isnan(1.0) << endl;
 
