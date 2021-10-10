@@ -16,6 +16,7 @@ int main()
 
 	void* my_void;
 
+	// 데이터 타입이 다르고 사이즈가 달라도 해당 데이터의 주소를 표현하는 데이터의 크기는 동일하다.
 	my_void = (void*)&i;
 	my_void = (void*)&f;
 

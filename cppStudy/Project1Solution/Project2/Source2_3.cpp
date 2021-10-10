@@ -1,4 +1,4 @@
-// C++ 11부터는 고정 너비 정수가 생김(Fixed-width integers
+// C++ 11부터는 어떤 플랫폼이던지 고정 너비 정수를 쓸 수 있게 설정할 수 있음(Fixed-width integers)
 //#include <cstdint> // iostream을 include할 경우 별도로 사용할 필요가 없음
 #include <iostream>
 
