@@ -15,10 +15,10 @@ int main()
 {
 	using namespace std;
 
-	bool b1 = true; // copy initialization
-	bool b2(false); // direct
-	bool b3{ true };// uniform
-	b3 = false;
+	bool b1 = true;		// copy initialization
+	bool b2(false);		// direct initialization
+	bool b3{ true };	// uniform initialization
+	b3 = false;			// assignment operator
 
 	cout << std::boolalpha;
 	cout << b3 << endl;
