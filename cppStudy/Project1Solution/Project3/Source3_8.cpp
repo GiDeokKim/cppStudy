@@ -2,6 +2,7 @@
 // Bitwise Operators
 // 사람은 자료형 단위로 계산하지만
 // 컴퓨터는 비트 단위로 계산한다.
+// 비트단위 연산이 자료형 단위 연산보다 빠르다.
 
 #include <iostream>
 #include <bitset>
