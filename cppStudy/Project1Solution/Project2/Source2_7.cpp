@@ -8,10 +8,36 @@ int main()
 {
 	using namespace std;
 
+	// 한글자를 표현할 때는 홑따옴표를 사용한다.
 	char c1(65);
-	char c2 = 'A'; // 한글자를 표현할 때는 홑따옴표를 사용한다.
+	char c2 = 'A'; 
 
 	cout << c1 << " " << c2 << " " << int(c1) << " " << int(c2) << endl;
+
+
+	// char 자료형 한계치 확인
+	cout << sizeof(char) << endl;
+	cout << (int)numeric_limits<char>::max() << endl;
+	cout << (int)numeric_limits<char>::lowest() << endl;
+
+
+	// stream을 사용하면 넘친 input 값을 버퍼에 저장하고 있는다.
+	// 그 뒤에 다시 입력 받는 명령이 있다면 넘친 input 값을 넣는다.
+	cin >> c1;
+	cout << c1 << " " << static_cast<int>(c1) << endl;
+
+	cin >> c1;
+	cout << c1 << " " << static_cast<int>(c1) << endl;
+
+	cin >> c1;
+	cout << c1 << " " << static_cast<int>(c1) << endl;
+
+
+	cout << "This is first line \nsecond line\n"; // 버퍼에 담기기만하고 줄바꿈을 안할 수도 있음
+	cout << "This is first line " << endl << "second line" << endl; // endl은 버퍼에 있는 것을 출력한 뒤에 줄바꿈을 수행함
+	//std::flush
+	cout << int('\n') << endl;
+
 
 	// c-style casting(강제 변환)
 	cout << (char)65 << endl;
@@ -34,25 +60,6 @@ int main()
 	cout << static_cast<int>(ch) << endl;
 	cout << ch << endl;
 
-	cin >> c1;
-	cout << c1 << " " << static_cast<int>(c1) << endl;
-
-	//stream을 사용하면 input값은 버퍼에 저장하고 있음
-	cin >> c1;
-	cout << c1 << " " << static_cast<int>(c1) << endl;
-	// 두글자입력하면 버퍼에 남은 값을 받아옴
-
-	cin >> c1;
-	cout << c1 << " " << static_cast<int>(c1) << endl;
-
-	cout << sizeof(char) << endl;
-	cout << (int)numeric_limits<char>::max() << endl;
-	cout << (int)numeric_limits<char>::lowest() << endl;
-
-	cout << "This is first line \nsecond line\n"; // 버퍼에 담기기만하고 줄바꿈을 안할 수도 있음
-	cout << "This is first line " << endl << "second line" << endl; // endl은 버퍼에 있는 것을 출력한 뒤에 줄바꿈을 수행함
-	//std::flush
-	cout << int('\n') << endl;
 
 	return 0;
 }
