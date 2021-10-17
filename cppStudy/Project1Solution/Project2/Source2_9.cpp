@@ -2,11 +2,15 @@
 // c++ 11 constexpr
 
 #include <iostream>
-#include "MY_CONSTANTS.h"
-#define PRICE_PER_ITEM 30 // c에서 많이 쓰지 c++에서는 잘 안쓴다. why? 적용범위가 너무 넓다.
+#include "MY_CONSTANTS.h" // 상수는 한 헤더 파일에 모아두면 관리가 편하다.
+
+// 매크로보다 const가 더 좋다.
+// c에서 많이 쓰지 c++에서는 잘 안쓴다. why? 적용범위가 너무 넓다.
+#define PRICE_PER_ITEM 30
 
 using namespace std;
 
+// const 키워드를 매개변수에 사용하여 함수 내부에서 해당 변수를 바꾸지 못하도록 제한한다.
 void printNumber(const int my_number)
 {
 	cout << my_number << endl;
@@ -28,7 +32,7 @@ int main()
 	const int special_number(number); // 사용자가 입력하는 심볼릭 상수
 
 	// 컴파일타임에서 결정난다는 것을 키워드로 표현한다.
-	constexpr int price_per_item = 123; // 매크로보다 const가 더 좋다.
+	constexpr int price_per_item = 123;
 
 	int num_item = 123;
 	int price = num_item * price_per_item;
