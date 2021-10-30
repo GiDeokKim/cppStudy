@@ -13,7 +13,7 @@ auto add(int x, int y)
 {
 	return x + (double)y;
 }
-
+auto add(int x, int y) -> double;
 //auto add(double x, double y)
 //{
 //	return x + y;
