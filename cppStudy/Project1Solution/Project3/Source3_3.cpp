@@ -12,25 +12,27 @@ int main()
 {
 	using namespace std;
 
-	int x = 5;
-	int y = --x;
-	int z = x--;
+	int number = 5;
+	int prefixDecrementNumber	= --number;
+	int postfixDecrementNumber	= number--;
 
-	cout << y << endl;
-	cout << z << endl;
+	cout << prefixDecrementNumber	<< endl;
+	cout << postfixDecrementNumber	<< endl;
 
-	x = 6, y = 6;
-	cout << x << " " << y << endl;
-	//cout << ++x << " " << --y << endl;
-	cout << x++ << " " << y-- << endl; // x를 스트림으로 보낸 뒤에 1을 더해준다.
-	cout << x << " " << y << endl;
+	int number01 = 6;
+	int number02 = 6;
+	cout << number01	<< " " << number02		<< endl;
+	cout << ++number01	<< " " << --number02	<< endl;
+	cout << number01++	<< " " << number02--	<< endl; // number01을 스트림으로 보낸 뒤에 1을 더해준다.
+	cout << number01	<< " " << number02		<< endl;
 
-	x = 1;
-	y = 2;
-	int v = add(x, ++x);
-	cout << v << endl;
-	v = add(x, ++y);
-	cout << v << endl;
+	int number03 = 1;
+	int number04 = 2;
+	int addNumber = add(number03, ++number03);
+
+	cout << addNumber << endl;
+	addNumber = add(number03, ++number04);
+	cout << addNumber << endl;
 
 	return 0;
 }
