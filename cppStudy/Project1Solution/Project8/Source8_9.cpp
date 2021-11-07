@@ -52,7 +52,7 @@ public:
 
 	// 오버로딩은 매개변수의 차이로 구성 가능
 	// 반환값 차이로는 오버로딩 불가능
-	string& getValue() const // 함수 뒤에 const를 붙여서 오버로딩이 가능하다.
+	const string& getValue() const // 함수 뒤에 const를 붙여서 오버로딩이 가능하다.
 	{ 
 		cout << "const version" << endl;
 		return m_value; 
