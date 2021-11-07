@@ -45,7 +45,7 @@ int main()
 {
 	using namespace std;
 
-	//apple = 1; //error
+	//apple = 1; // 지역 변수가 생성되기 이전이기 때문에 error
 
 	int apple = 5;
 
@@ -53,11 +53,14 @@ int main()
 
 	{
 		apple = 1;
-		int apple = 3;// 18~19에만 살아 있다. 외부 apple을 숨겨준다.
-		cout << apple << endl;
-	}
 
-	cout << apple << endl; //apple에 커서 올리면 같은 apple이 표시된다.
+		int apple = 3; // 내부 apple 생성
+
+		cout << apple << endl;
+	} // 내부 apple 소멸
+
+	//apple을 클릭하면 같은 메모리를 가리키는 apple이 표시된다.
+	cout << apple << endl;
 
 	// ::는 scope resolution operator라 부른다.
 	work1::a;
@@ -71,4 +74,4 @@ int main()
 	return 0;
 }
 
-// apple = 3; // error
+// apple = 3; // 지역 변수가 소멸되었기 때문에 error
