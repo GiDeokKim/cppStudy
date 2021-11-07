@@ -43,7 +43,7 @@ public:
 
 };
 
-//int Something::s_value = 1024;
+int Something::s_value = 1024;
 Something::_init Something::s_initializer;
 
 int main()
