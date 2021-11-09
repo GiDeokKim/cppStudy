@@ -1,5 +1,5 @@
 // 전역 변수, 정적 변수, 내부 연결, 외부 연결
-// Global Variable, Static Variable, Internal Linkage, External Linkage
+// Global Variables, Static Variables, Internal Linkage, External Linkage
 
 // 내부 연결
 // 외부 연결
