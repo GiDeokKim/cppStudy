@@ -1,4 +1,4 @@
-//goto
+//goto 어셈블리어는 반복문이 goto로 구성되어 있다.
 #include <iostream>
 #include <cmath> // sqrt()
 
