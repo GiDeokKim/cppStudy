@@ -79,7 +79,7 @@ int main()
 
 #include <limits>
 
-/* 5. 정수를 먼저 받을때 생기는 오작동.
+//* 5. 정수를 먼저 받을때 생기는 오작동.
 int main()
 {
 	using namespace std;
@@ -90,7 +90,7 @@ int main()
 	
 	// 해결법
 	//cin.ignore(32767, '\n'); // 2 byte 가장 큰 signed 정수 32767
-	cin.ignore(numeric_limits<streamsize>::max(), '\n');
+	//cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
 	cout << "Your name ? : ";
 	string name;
@@ -101,7 +101,7 @@ int main()
 	return 0;
 }//*/
 
-//* 6. 문자열 더하기와 문자열 길이 출력하기.
+/* 6. 문자열 더하기와 문자열 길이 출력하기.
 int main()
 {
 	using namespace std;
