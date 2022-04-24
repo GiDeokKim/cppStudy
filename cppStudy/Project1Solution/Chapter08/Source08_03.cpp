@@ -58,7 +58,7 @@ public: // 생성자를 private으로도 두고 사용할 수 있다.
 };
 
 int main()
-{		
+{
 	// public일 떄만 가능한 경우
 	//Fraction frac { 0, 1 };
 	/*frac.m_numerator = 0;

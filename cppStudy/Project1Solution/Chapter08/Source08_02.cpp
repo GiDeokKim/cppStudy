@@ -8,9 +8,9 @@
 using namespace std;
 
 class Date
-//struct Date
+	//struct Date
 {
-//public:		// access specifier(기본이 private)
+	//public:		// access specifier(기본이 private)
 	int m_month;
 	int m_day;
 	int m_year;

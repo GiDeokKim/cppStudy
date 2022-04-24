@@ -22,7 +22,7 @@ int main()
 {
 	Fruit apple(Fruit::APPLE);
 
-	if (apple.getType == Fruit::APPLE)
+	if (apple.getType() == Fruit::APPLE)
 	{
 		std::cout << "Apple" << std::endl;
 	}

@@ -60,7 +60,7 @@ int main()
 	cout << (s2.*fptr1)() << endl;
 
 	// 특정 인스턴스와 상관 없이 사용 가능
-	int (* fptr2)() = &Something::getValue;
+	int (*fptr2)() = &Something::getValue;
 
 	cout << fptr2() << endl;
 

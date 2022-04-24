@@ -13,7 +13,7 @@ private:
 	int m_value = 1;
 
 	//friend void doSomething(A& a, B& b);
-	
+
 	//friend class B;
 	friend void B::doSomething(A& a); // 멤버 함수에만 열어주기
 };

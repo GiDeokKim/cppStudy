@@ -33,7 +33,7 @@ private:
 	int m_cents;
 
 public:
-	Cents(int cents) 
+	Cents(int cents)
 	{
 		m_cents = cents;
 	}
