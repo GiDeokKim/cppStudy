@@ -87,7 +87,7 @@ int main()
 	cout << "Your age ? : ";
 	int age;
 	cin >> age;
-	
+
 	// 해결법
 	//cin.ignore(32767, '\n'); // 2 byte 가장 큰 signed 정수 32767
 	//cin.ignore(numeric_limits<streamsize>::max(), '\n');

@@ -50,7 +50,7 @@ int main()
 
 	float	d = 3; // numeric conversion(서로 다른 자료형 간에 변환)
 	short	s = 2; // numeric conversion(큰 메모리 데이터가 작은 메모리에 담기는 경우)
-	
+
 	cout << typeid(d).name() << endl;
 	cout << typeid(s).name() << endl;
 
@@ -76,6 +76,6 @@ int main()
 	int i = int(4.0);			// c++ style
 	i = (int)4.0;				// c style
 	i = static_cast<int>(4.0);	// 최신
-	
+
 	return 0;
 }//*/

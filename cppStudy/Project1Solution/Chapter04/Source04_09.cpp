@@ -22,7 +22,7 @@ int main()
 	//std::vector<std::pair<std::string, int>> pairlist;
 	using namespace std;
 	//vector<pair<string, int>> pairlist; // using namespace로 줄이기
-	
+
 	// typedef와 using의 차이점은 template 지원이다.
 	//typedef vector<pair<string, int>> pairlist_t;
 	//pairlist_t pairlist;

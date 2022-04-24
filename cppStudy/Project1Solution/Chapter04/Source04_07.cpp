@@ -40,7 +40,7 @@ int computeDamage(int weapon_id)
 		return 2;
 	}
 
-	// ... 
+	// ...
 }//*/
 
 /* 3. 초기화 방법은 기본 자료형과 같으며, 앞 항목에 들어간 숫자를 기준으로 1씩 올라간 수를 다음 항목이 가진다.
@@ -116,7 +116,7 @@ int main()
 	cout << color_id << endl;
 
 	return 0;
-}//*/ 
+}//*/
 
 /* 6. int 자료형에 enum을 넣는 것은 가능하지만 반대는 안된다.
 enum Color
