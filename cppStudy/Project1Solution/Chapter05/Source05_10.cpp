@@ -7,7 +7,7 @@ using namespace std;
 
 int getInt()
 {
-	while(true)
+	while (true)
 	{
 		cout << "Enter an integer number : ";
 		int x;
@@ -29,7 +29,7 @@ int getInt()
 
 int getOperator()
 {
-	while(true)
+	while (true)
 	{
 		cout << "Enter an operator (+, -) : "; //TODO: more operators *, / etc.
 		char op;

@@ -57,7 +57,7 @@ int main()
 {
 	int count(0);
 	bool escape_flag = false;
-	while(!escape_flag)
+	while (!escape_flag)
 	{
 		char ch; // 무한 반복에서 비효율적일 수 있음. 밖에 있는 것이 좋음
 		cin >> ch;

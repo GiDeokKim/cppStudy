@@ -74,7 +74,7 @@ int main()
 
 	switch (x)
 	{
-		
+
 	case 0:
 		int a; // case문 안에서 선언해도 switch 제일 윗 공간에서 선언한 효과를 가짐
 		break; // 여기서만 선언하고 쓰고 싶다면 case문 각각에 중괄호로 무껑버리자.

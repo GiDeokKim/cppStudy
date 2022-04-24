@@ -16,7 +16,7 @@ tryAgain: //label
 		goto tryAgain;
 
 	cout << sqrt(x) << endl;
-	
+
 
 	//goto skip; // ¿¡·¯ ¶ä
 

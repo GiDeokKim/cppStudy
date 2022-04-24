@@ -7,7 +7,7 @@ int main()
 	int x;
 	cin >> x;
 
-	
+
 	if (x > 10) // 중괄호로 감싸는건 코드를 보고 선택
 		cout << x << "is greater than 10" << endl;
 	else
