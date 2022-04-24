@@ -10,8 +10,8 @@ int main()
 	float floatNumber;
 
 	// sizeof는 연산자이다.
-	cout << sizeof(float)		<< endl;
-	cout << sizeof floatNumber	<< endl;
+	cout << sizeof(float) << endl;
+	cout << sizeof floatNumber << endl;
 
 	// comma perator
 	int number01 = 3, number02 = 10;
