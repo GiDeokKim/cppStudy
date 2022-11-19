@@ -21,7 +21,13 @@
     <ClCompile Include="Source10_03.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source10_4.cpp">
+    <ClCompile Include="Source10_04.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source10_05.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Worker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -39,6 +45,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Lecture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Worker.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

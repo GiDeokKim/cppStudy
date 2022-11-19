@@ -145,7 +145,11 @@
     <ClCompile Include="Source10_03.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Source10_4.cpp" />
+    <ClCompile Include="Source10_04.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source10_05.cpp" />
+    <ClCompile Include="Worker.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lecture.h" />
@@ -153,6 +157,8 @@
     <ClInclude Include="Position2D.h" />
     <ClInclude Include="Student.h" />
     <ClInclude Include="Teacher.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="Worker.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
