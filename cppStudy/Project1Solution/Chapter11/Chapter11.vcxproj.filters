@@ -30,6 +30,12 @@
     <ClCompile Include="Source11_05.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Source11_06.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source11_07.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Teacher.h">
