@@ -148,7 +148,10 @@
     <ClCompile Include="Source11_03.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Source11_04.cpp" />
+    <ClCompile Include="Source11_04.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source11_05.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h" />
