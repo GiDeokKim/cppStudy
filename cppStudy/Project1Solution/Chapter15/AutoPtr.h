@@ -90,7 +90,7 @@ public:
 		*m_ptr = *a.m_ptr;
 	}
 
-	AutoPtr(const AutoPtr&& a)
+	AutoPtr(AutoPtr&& a)
 		: m_ptr(a.m_ptr)
 	{
 		a.m_ptr = nullptr; // really necessary?
