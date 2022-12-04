@@ -55,7 +55,7 @@ int main()
 
 	partnerUp(lucy, ricky);
 
-	//std::cout << lucy - getPartner()->getName() << std::endl;
+	//std::cout << lucy->getPartner()->getName() << std::endl;
 
 	return 0;
 }
